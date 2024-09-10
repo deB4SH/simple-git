@@ -1,0 +1,12 @@
+virtual-root=/
+css=/cgit-css/cgit.css
+logo=/cgit-css/cgit.png
+# set default repo readme file
+about-filter=/usr/lib/cgit/filters/about-formatting.sh
+readme=README.md
+# allow repository cloning via HTTP
+enable-http-clone=1
+# enable Pygments syntax highlighting
+source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
+# specify repository folder
+scan-path=/data
