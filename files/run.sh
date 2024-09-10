@@ -5,6 +5,6 @@ echo "starting lighttpd"
 tmux new-session -d -s http '/usr/sbin/lighttpd -D -f /etc/lighttpd/lighttpd.conf'
 echo "showing tmux sessions"
 tmux ls
-echo "tailing /dev/null to keep container alive
+echo "tailing /dev/null to keep container alive"
 tail -f /dev/null
 
