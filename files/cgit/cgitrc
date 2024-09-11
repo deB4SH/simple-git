@@ -1,4 +1,4 @@
-virtual-root=/
+virtual-root=/cgit
 css=/cgit-css/cgit.css
 logo=/cgit-css/cgit.png
 # set default repo readme file
