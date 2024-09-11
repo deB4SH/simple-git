@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # check for all required executables
 if ! [ -x "$(command -v git)" ]; then
-  echo 'Error: git is not installed.' >&2
-  exit 1
+    echo 'Error: git is not installed.' >&2
+    exit 1
 fi
 if [ -x "$(command -v podman)" ]; then
     cli_cmd="podman"
